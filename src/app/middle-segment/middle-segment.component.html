@@ -1,0 +1,73 @@
+<!-- <img src="{{img1}}" alt=""> -->
+<section *ngFor="let x of images">
+    <img src="x" alt="image">    
+</section>
+<!--middle_segment-->
+<section id="stores">
+    <img  class="safety"  [src]="images[0]" alt="Image 1">>
+  </section>
+
+
+  <section class="company" id="company">
+    <div class="max-width">
+        <h2 class="title">Featured Menu Items</h2>
+        <div class="carousel">
+          <div class="card">
+            <div class="box">
+                <img [src]="images[1]" alt="Image 2">
+                <div class="text">Cafe latte</div>
+                <p></p>
+            </div>
+        </div>
+          <div class="card">
+            <div class="box">
+                <img [src]="images[2]" alt="Image 3">
+                <div class="text">Whopper</div>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img [src]="images[3]" alt="Image 4">
+            <div class="text">Roasted Chicken</div>
+            <p></p>
+          </div>
+      </div>   
+          <div class="card">
+                <div class="box">
+                    <img [src]="images[4]" alt="fries">
+                    <div class="text">Regular Fries</div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img [src]="images[4]" alt="combo">
+                    <div class="text">Combo Offer</div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img [src]="images[5]" alt="fried chcken wings">
+                    <div class="text">Fried Chicken Wings</div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img [src]="images[6]" alt="mojito">
+                    <div class="text">Mojito</div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img [src]="images[7]" alt="Desert">
+                    <div class="text">Desert</div>
+                    <p> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>

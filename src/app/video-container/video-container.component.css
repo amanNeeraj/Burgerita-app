@@ -1,0 +1,45 @@
+video {
+    position: relative;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .video_container {
+    position: relative;
+  }
+  .video_container .btn {
+    position: absolute;
+    top: 90%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(238, 18, 18);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+  }
+  .video_container .btn:hover{
+    background-color:rgb(64, 123, 201) ;
+  }
+  .video_container .botn {
+    position: absolute;
+    top: 90%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(64, 123, 201);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+  }
+  .video_container .botn:hover{
+    background-color: #ed0b1e;
+  }
