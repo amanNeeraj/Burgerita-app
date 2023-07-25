@@ -9,7 +9,19 @@
       <a href="#LOGIN"><i class="fas fa-user-alt"></i>LOGIN</a>
       <a href="#topbody"><i class="fas fa-crown"></i>KING DEALS</a>
       <a href="#CART"><i class="fas fa-shopping-cart"></i>CART</a>
-      <a href="#cart"><button><i class="search fas fa-search fa-lg"></i></button></a>  
+      <a href="#cart"><button><i class="search fas fa-search fa-lg"></i></button></a> 
+      <div class="search-container">
+        <input type="text" placeholder="Search..." [(ngModel)]="searchKeyword" (keyup)="search()">
+      </div>
+    
+      <div *ngIf="results.length > 0" class="search-results">
+        <ul>
+          <li *ngFor="let result of results">
+            <!-- Display the search results here -->
+            {{ result.name }}
+          </li>
+        </ul>
+      </div> 
     </div>
   </div>
 

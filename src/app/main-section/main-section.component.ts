@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-section.component.css']
 })
 export class MainSectionComponent {
+  images: string[] = [
+    '../assets/Delivery-services-free-delivery-on-all-orders-banner-design-06-large.jpg'
+  ];
 
 }

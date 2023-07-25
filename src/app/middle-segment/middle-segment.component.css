@@ -1,17 +1,21 @@
 /*Carousel styling*/
 .carousel{
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    flex-flow: row;
-    border-radius: 20px;
+    /* flex-direction:row; */
+    flex-wrap: nowrap;
+    /* flex-flow: row; */
+    /* border-radius: 20px;
     justify-content:center;
-    align-items:center;
-    overflow-x: scroll;
+    align-items:center; */
+    overflow-x: auto;
     overflow-y: hidden;
-    transition:all 0.3s ease;
+    margin: 0-10px;
+    padding: 10px;
+    /* transition:all 0.3s ease; */
   }
   .carousel .card{
+    flex: 0 0 250px;
+    margin: 0 10px;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -28,8 +32,8 @@
     border-color: #fff;
   }
   .carousel .card img{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border: 5px solid crimson;
     transition: all 0.3s ease;

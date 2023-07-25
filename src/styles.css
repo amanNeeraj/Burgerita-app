@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    background-color: 	#F5F5F5;
+  }

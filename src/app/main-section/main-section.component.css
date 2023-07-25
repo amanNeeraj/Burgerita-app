@@ -1,0 +1,36 @@
+.main-content{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background:#ffb84d;
+    margin-bottom: 60px;
+  }
+  .main .main-content .left{
+    width: 45%;
+  }
+  .main .main-content .left img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .main .main-content .right{
+    padding: 30px;
+    width: 55%;
+  }
+  .main .main-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .main .main-content .right p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: justify;
+  }
