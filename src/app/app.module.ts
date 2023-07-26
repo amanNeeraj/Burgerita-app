@@ -10,6 +10,7 @@ import { KingDealsComponent } from './king-deals/king-deals.component';
 import { MiddleSegmentComponent } from './middle-segment/middle-segment.component';
 import { FeaturedMenuComponent } from './featured-menu/featured-menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { NearbyStoresComponent } from './nearby-stores/nearby-stores.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     KingDealsComponent,
     MiddleSegmentComponent,
     FeaturedMenuComponent,
-    FooterComponent
+    FooterComponent,
+    NearbyStoresComponent
   ],
   imports: [
     BrowserModule,

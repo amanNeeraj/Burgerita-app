@@ -12,6 +12,8 @@
     margin: 0-10px;
     padding: 10px;
     /* transition:all 0.3s ease; */
+    position: relative;
+    right: 46px;
   }
   .carousel .card{
     flex: 0 0 250px;
